@@ -1,1 +1,28 @@
 https://vodacom.atlassian.net/wiki/spaces/CE/pages/187860076/AWS+Cloud+egress+proxy+whitelist+requests
+
+Allow listing process:
+Any white/allow list changes need to be vetted by the Vodacom's IT Network Security team.
+
+If Application teams require a URL to be added to the white/allow list they need to follow the process below.
+
+Send a mail to the IT Network Security team: itnetworksecurity@vodacom.co.za
+
+Include a description of your requirements and list the domain/s you need whitelisted as per the example below.
+
+Note the wildcard is a “.”
+
+CC in the request: mark.warr@vodacom.co.za
+
+Please do not CC Cloud Support in the request as this team is not able to assist with whitelisting changes.
+
+The domain will be whitelisted on the firewall immediately at the time the IT Network Security team complete the change ie: there is no delay as there used to be with the Squid proxy.
+
+Sample comms:
+
+Hi team
+
+Please whitelist the below domain/s on the AWS egress firewall.
+
+Domain: “.example.com”
+
+Thanks.
